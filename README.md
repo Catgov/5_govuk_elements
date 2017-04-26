@@ -6,18 +6,18 @@ GOV.UK elements
 GOV.UK elements is two things:
 
 1. an online design guide, explaining how to make your service look consistent with the rest of GOV.UK
-2. an example of how to use the code in the [GOV.UK template](https://github.com/alphagov/govuk_template) and the [GOV.UK front end toolkit](https://github.com/alphagov/govuk_frontend_toolkit)
+2. an example of how to use the code in the [GOV.UK template](https://github.com/alphagov/govuk_template) and the [GOV.UK frontend toolkit](https://github.com/alphagov/govuk_frontend_toolkit)
 
 The guide can be seen here: http://govuk-elements.herokuapp.com/.
 
 ## How can it be used?
 
-It can be used as a base of front end code.
+It can be used as a base of frontend code.
 
-GOV.UK elements has the [GOV.UK front end toolkit](https://github.com/alphagov/govuk_frontend_toolkit) as a dependency.
+GOV.UK elements has the [GOV.UK frontend toolkit](https://github.com/alphagov/govuk_frontend_toolkit) as a dependency.
 The toolkit provides Sass variables and mixins, in order to use these - they must be imported before any of the elements Sass files.
 
-Take a look at `/public/sass/main.scss` to see how the GOV.UK front end toolkit's Sass files are imported.
+Take a look at `/public/sass/main.scss` to see how the GOV.UK frontend toolkit's Sass files are imported.
 
 
     // Sass mixins and variables
@@ -37,7 +37,7 @@ Take a look at `/public/sass/main.scss` to see how the GOV.UK front end toolkit'
 
 Note that `_font_stack.scss` is not imported here, as this is used by the [GOV.UK template](https://github.com/alphagov/govuk_template), to set the font stack.
 
-Choose the Sass files you need to build on top of those provided by the front end toolkit.
+Choose the Sass files you need to build on top of those provided by the frontend toolkit.
 For example, add typography, layout (for grid layout) and additional modules as you need them.
 
 Take a look at `/public/sass/main.scss` to see how the Sass files within `/public/sass/elements` are imported.
